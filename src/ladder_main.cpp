@@ -15,6 +15,7 @@ void test_word_ladder() {
     
     cout << "Testing word ladder from '" << start << "' to '" << end << "':\n";
     print_word_ladder(ladder);
+    verify_word_ladder();
 }
 
 int main() {
